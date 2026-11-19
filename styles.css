@@ -225,5 +225,6 @@ h1 { font-size: clamp(2.4rem, 6vw, 3.6rem); line-height: 1.05; margin: 0 0 22px;
 }
 @media (max-width: 480px) {
   .case-head { flex-direction: column; align-items: flex-start; }
-  .dock a { padding: 8px 10px; font-size: .8rem; }
+  .dock { gap: 0; padding: 4px; overflow-x: auto; scrollbar-width: none; }
+  .dock a { padding: 8px 9px; font-size: .76rem; }
 }
